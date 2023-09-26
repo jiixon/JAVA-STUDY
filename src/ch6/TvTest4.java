@@ -1,7 +1,5 @@
 package ch6;
 
-import java.util.Arrays;
-
 class TvTest4{
     public static void main(String[] args) {
         Tv[] tvArr = new Tv[3];
