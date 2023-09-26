@@ -1,4 +1,7 @@
 package ch6;
+
+import java.util.Arrays;
+
 class TvTest4{
     public static void main(String[] args) {
         Tv[] tvArr = new Tv[3];
@@ -7,11 +10,5 @@ class TvTest4{
             tvArr[i] = new Tv();
             tvArr[i].channel = i + 10;
         }
-
-        for(int i=0; i<tvArr.length; i++){
-            tvArr[i].channelUp();
-            System.out.printf("tvArr[%d].channel=%d%n",i,tvArr[i].channel);
-        }
-
     }
 }
