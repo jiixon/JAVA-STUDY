@@ -1,7 +1,7 @@
 package ch6;
 public class MemberCall {
-    int iv = 10;
-    static int cv = 20;
+    int iv = 10; //인스턴스 변수
+    static int cv = 20; //클래스 변수
 
     int iv2 = cv;
     //static int cv2 = iv; //에러. 클래스변수는 인스턴스 변수를 사용할 수 없음.
