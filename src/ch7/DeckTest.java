@@ -13,7 +13,7 @@ public class DeckTest {
 }
 class Deck{
     final int CARD_NUM = 52; //카드의 개수
-    Card cardArr[] = new Card[CARD_NUM]; //Card객체 배열을 포함
+    Card cardArr[] = new Card[CARD_NUM]; //Card객체 배열을 포함(Card객체 배열-참조변수 배열:객체의 주소 저장)
 
     Deck(){ //Deck의 카드를 초기화
         int i = 0;
@@ -62,7 +62,7 @@ class Card{
     }
     public String toString(){
         String[] kinds = {"","CLOVER","HEART","DIAMOND","SPADE"};
-        String numbers = "0123456789XJOK"; //숫자 10dms X로 표현
+        String numbers = "0123456789XJQK"; //숫자 10dms X로 표현
         return "kind: "+kinds[this.kind]+", numbers: "+numbers.charAt(this.number);
     }
 }
