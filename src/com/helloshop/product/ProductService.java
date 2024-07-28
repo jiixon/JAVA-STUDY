@@ -1,4 +1,4 @@
-package helloshop.product;
+package com.helloshop.product;
 
 public class ProductService {
 }

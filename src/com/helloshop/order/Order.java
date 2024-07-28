@@ -1,4 +1,4 @@
-package helloshop.order;
+package com.helloshop.order;
 
 import com.helloshop.product.Product;
 import com.helloshop.user.User;

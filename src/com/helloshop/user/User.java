@@ -1,4 +1,4 @@
-package helloshop.user;
+package com.helloshop.user;
 
 public class User {
     String userId;
