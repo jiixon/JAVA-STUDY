@@ -14,7 +14,8 @@ public class Item {
     public String getName() {
         return name;
     }
-    public int getTotalPrice(){
+
+    public int getTotalPrice() {
         return price * quantity;
     }
 }

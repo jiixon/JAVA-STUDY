@@ -9,11 +9,11 @@ public class MaxCounter {
     }
 
     public void increment() {
-        if(count >= max) System.out.println("최댓값을 초과할 수 없습니다.");
+        if (count >= max) System.out.println("최댓값을 초과할 수 없습니다.");
         else count += 1;
     }
 
-    public int getCount(){
+    public int getCount() {
         return count;
     }
 
