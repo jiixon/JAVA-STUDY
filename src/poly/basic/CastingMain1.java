@@ -10,5 +10,10 @@ public class CastingMain1 {
         //다운캐스팅(부모 타입 -> 자식 타입)
         Child child = (Child) poly;
         child.childMethod();
+
+        //캐스팅 순서
+        //Child child = (Child) poly; //다운캐스팅을 통해 부모타입을 자식타입으로 변환 후 대입 시도
+        //Child child = (Child) x001 //참조값을 읽은 다음 자식타입으로 지정
+        //Child child = x001 //최종 결과
     }
 }
