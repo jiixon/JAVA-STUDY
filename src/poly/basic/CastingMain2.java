@@ -9,6 +9,5 @@ public class CastingMain2 {
 
         //일시적 다운캐스팅 - 해당 메서드를 호출하는 순간만 다운캐스팅 (poly의 타입이 바뀐 것은 아니다)
         ((Child) poly).childMethod(); //연산자 우산순위로 인해 () 해줘야함
-
     }
 }
