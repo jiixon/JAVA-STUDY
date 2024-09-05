@@ -1,6 +1,6 @@
 package poly.basic;
 
-public class CastingMain5 {
+public class CastingMain6 {
     public static void main(String[] args) {
         Parent parent1 = new Parent();
         System.out.println("parent1 호출");
@@ -13,9 +13,10 @@ public class CastingMain5 {
 
     private static void call(Parent parent) {
         parent.parentMethod();
-        if(parent instanceof Child) {
+        //instanceof를 사용함과 동시에 변수선언 -> 인스턴스가 맞으면 직접 다운캐스팅코드 생략 가능
+        if(parent instanceof Child child) {
             System.out.println("Child 인스턴스 맞음");
-            Child child = (Child) parent;
+            //Child child = (Child) parent;
             child.childMethod();
         }else {
             System.out.println("Child 인스턴스 아님");
