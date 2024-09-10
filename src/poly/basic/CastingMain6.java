@@ -14,11 +14,11 @@ public class CastingMain6 {
     private static void call(Parent parent) {
         parent.parentMethod();
         //instanceof를 사용함과 동시에 변수선언 -> 인스턴스가 맞으면 직접 다운캐스팅코드 생략 가능
-        if(parent instanceof Child child) {
+        if (parent instanceof Child child) {
             System.out.println("Child 인스턴스 맞음");
             //Child child = (Child) parent;
             child.childMethod();
-        }else {
+        } else {
             System.out.println("Child 인스턴스 아님");
         }
     }
